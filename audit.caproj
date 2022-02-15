@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>audit</name>
+    <description>audit</description>
+    <version>1.0.0.0</version>
+    <author>Pathiphon</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.pathiphon.game</app-id>
+    <unique-id>2o2u6oy05e7qd</unique-id>
+    <saved-with-version>26200</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1000</width>
+        <height>1200</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="bg" sid="449602033824830">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="click" sid="810902152870262" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="549063669088082" speed="0">
+                    <frame duration="1" hotspotX="0.500917" hotspotY="0.500717" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\รูปภาพ1.png" />
+                    <frame duration="1" hotspotX="0.500901" hotspotY="0.5" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\รูปภาพ2.png" />
+                    <frame duration="1" hotspotX="0.500901" hotspotY="0.5" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\รูปภาพ3.png" />
+                    <frame duration="1" hotspotX="0.500901" hotspotY="0.500692" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\รูปภาพ4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\รูปภาพ5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\รูปภาพ6.png" />
+                    <frame duration="1" hotspotX="0.501114" hotspotY="0.5" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\รูปภาพ7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="correct" sid="962616266622128">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="num" sid="864219582008133" type="number" />
+                <instance-variable name="click" sid="323084917937599" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="547020090644274" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501466" original-source="C:\Users\win10\Downloads\kisspng-red-paper-bicycle-frames-speech-balloon-black-template-5b131480b98219.2733418815279770887599.png">
+                        <collision-poly>
+                            <point x="0.0435897" y="0.0997067" />
+                            <point x="0.5" y="0.00879765" />
+                            <point x="0.920513" y="0.181818" />
+                            <point x="0.920513" y="0.818182" />
+                            <point x="0.5" y="0.891496" />
+                            <point x="0.0487179" y="0.888563" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btNext" sid="302228915893733">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="271022943290798" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Downloads\181669.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="live" sid="853154380302428">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="725806593758008" speed="0">
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" original-source="D:\True Font\Logo True\true_logo.png">
+                        <collision-poly>
+                            <point x="0.0430108" y="0.117647" />
+                            <point x="0.498208" y="0.205882" />
+                            <point x="0.921147" y="0.215686" />
+                            <point x="0.996416" y="0.5" />
+                            <point x="0.960573" y="0.892157" />
+                            <point x="0.498208" y="0.95098" />
+                            <point x="0.0609319" y="0.833333" />
+                            <point x="0.0430108" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0430108" y="0.117647" />
+                            <point x="0.498208" y="0.205882" />
+                            <point x="0.921147" y="0.215686" />
+                            <point x="0.996416" y="0.5" />
+                            <point x="0.960573" y="0.892157" />
+                            <point x="0.498208" y="0.95098" />
+                            <point x="0.0609319" y="0.833333" />
+                            <point x="0.0430108" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0430108" y="0.117647" />
+                            <point x="0.498208" y="0.205882" />
+                            <point x="0.921147" y="0.215686" />
+                            <point x="0.996416" y="0.5" />
+                            <point x="0.960573" y="0.892157" />
+                            <point x="0.498208" y="0.95098" />
+                            <point x="0.0609319" y="0.833333" />
+                            <point x="0.0430108" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0430108" y="0.117647" />
+                            <point x="0.498208" y="0.205882" />
+                            <point x="0.921147" y="0.215686" />
+                            <point x="0.996416" y="0.5" />
+                            <point x="0.960573" y="0.892157" />
+                            <point x="0.498208" y="0.95098" />
+                            <point x="0.0609319" y="0.833333" />
+                            <point x="0.0430108" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0430108" y="0.117647" />
+                            <point x="0.498208" y="0.205882" />
+                            <point x="0.921147" y="0.215686" />
+                            <point x="0.996416" y="0.5" />
+                            <point x="0.960573" y="0.892157" />
+                            <point x="0.498208" y="0.95098" />
+                            <point x="0.0609319" y="0.833333" />
+                            <point x="0.0430108" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="timer" sid="249313719480539">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btRestart" sid="803738812563382">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="655209793907458" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\cfbcd4336297cdd.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="color" sid="896820140164156">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="350763394377257" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="733012179892928">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="TextShow" sid="908826131014149">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="show" sid="595244551547606">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="435863367046115" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Downloads\It&apos;s time to celebrate.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Show1" sid="463964185820751">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="156151361674263" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Downloads\It&apos;s time to celebrate (1).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="309875903817200">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="SpriteFont" sid="834108210632991">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="show0" sid="285455096051031">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="515124163967332" speed="5">
+                    <frame duration="1" hotspotX="0.500354" hotspotY="0.5" original-source="C:\Users\win10\Downloads\It&apos;s time to celebrate (2).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="show2" sid="207420265045468">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="241170570101637" speed="5">
+                    <frame duration="1" hotspotX="0.500354" hotspotY="0.501124" original-source="C:\Users\win10\Downloads\It&apos;s time to celebrate (3).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="show3" sid="169305308444255">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="559221022472238" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Downloads\It&apos;s time to celebrate (4).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="show4" sid="238166025312415">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236054941767123" speed="5">
+                    <frame duration="1" hotspotX="0.500356" hotspotY="0.5" original-source="C:\Users\win10\Downloads\It&apos;s time to celebrate (5).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="show5" sid="459198151362499">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="469105216043167" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500935" original-source="C:\Users\win10\Downloads\It&apos;s time to celebrate (6).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="show6" sid="555585987809777">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="812336303667808" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501292" original-source="C:\Users\win10\Downloads\It&apos;s time to celebrate (7).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="show7" sid="469345919895964">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="188450458688006" speed="5">
+                    <frame duration="1" hotspotX="0.500354" hotspotY="0.5" original-source="C:\Users\win10\Downloads\It&apos;s time to celebrate (8).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="end" sid="548092531423804">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894818871734300" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Downloads\It&apos;s time to celebrate (9).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="logo" sid="756837306854555">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236959090226547" speed="5">
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" original-source="D:\True Font\Logo True\true_logo.png">
+                        <collision-poly>
+                            <point x="0.0430108" y="0.117647" />
+                            <point x="0.498208" y="0.205882" />
+                            <point x="0.921147" y="0.215686" />
+                            <point x="0.996416" y="0.5" />
+                            <point x="0.960573" y="0.892157" />
+                            <point x="0.498208" y="0.95098" />
+                            <point x="0.0609319" y="0.833333" />
+                            <point x="0.0430108" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="line" sid="624319246091636">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="553946036945109" speed="5">
+                    <frame duration="1" hotspotX="0.500768" hotspotY="0.5" original-source="C:\Users\win10\Desktop\Screenshot 2022-01-19 124138.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Start4" sid="690177419204494">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="525975301032457" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\d53ff1aeae3e6be.png">
+                        <collision-poly>
+                            <point x="0.102564" y="0.235294" />
+                            <point x="0.5" y="0.117647" />
+                            <point x="0.897436" y="0.235294" />
+                            <point x="0.923077" y="0.5" />
+                            <point x="0.897436" y="0.764706" />
+                            <point x="0.5" y="0.882353" />
+                            <point x="0.102564" y="0.764706" />
+                            <point x="0.0769231" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="prop" sid="506097005128184">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="867159652514222" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Downloads\—Pngtree—vector bulb idea_1225164.png">
+                        <collision-poly>
+                            <point x="0.651667" y="0.651667" />
+                            <point x="0.5" y="0.198333" />
+                            <point x="0.725833" y="0.274167" />
+                            <point x="0.695833" y="0.5" />
+                            <point x="0.655833" y="0.655833" />
+                            <point x="0.5" y="0.961667" />
+                            <point x="0.308333" y="0.691667" />
+                            <point x="0.625833" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgColor" sid="440218012039497">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="676833497698628" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ST" sid="435525977625029">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="962119001069587" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\d53ff1aeae3e6be.png">
+                        <collision-poly>
+                            <point x="0.102564" y="0.235294" />
+                            <point x="0.5" y="0.117647" />
+                            <point x="0.897436" y="0.235294" />
+                            <point x="0.923077" y="0.5" />
+                            <point x="0.897436" y="0.764706" />
+                            <point x="0.5" y="0.882353" />
+                            <point x="0.102564" y="0.764706" />
+                            <point x="0.0769231" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Logo3" sid="325891478615334">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="943372676338847" speed="5">
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" original-source="D:\True Font\Logo True\true_logo.png">
+                        <collision-poly>
+                            <point x="0.0430108" y="0.117647" />
+                            <point x="0.498208" y="0.205882" />
+                            <point x="0.921147" y="0.215686" />
+                            <point x="0.996416" y="0.5" />
+                            <point x="0.960573" y="0.892157" />
+                            <point x="0.498208" y="0.95098" />
+                            <point x="0.0609319" y="0.833333" />
+                            <point x="0.0430108" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="prop2" sid="729539054426036">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="710599845720994" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Downloads\—Pngtree—vector bulb idea_1225164.png">
+                        <collision-poly>
+                            <point x="0.651667" y="0.651667" />
+                            <point x="0.5" y="0.198333" />
+                            <point x="0.725833" y="0.274167" />
+                            <point x="0.695833" y="0.5" />
+                            <point x="0.655833" y="0.655833" />
+                            <point x="0.5" y="0.961667" />
+                            <point x="0.308333" y="0.691667" />
+                            <point x="0.625833" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="congrat" sid="264443496880627">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="386404804863563" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500994" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\congratulations-black-text-word-calligraphy-download-png-11638699700cgqkekzyt9.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cg" sid="261043446324412">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="764633177940612" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Downloads\congratulations-png-22060.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="home" sid="338762335038050">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="586694628927454" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Downloads\logo-home-png-7416.png">
+                        <collision-poly>
+                            <point x="0.146423" y="0.146423" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853577" y="0.146423" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853577" y="0.853577" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146423" y="0.853577" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgt" sid="439863199770109">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467407513919272" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\sec-1-kv6.png">
+                        <collision-poly>
+                            <point x="0.351604" y="0.267821" />
+                            <point x="0.5" y="0.0590631" />
+                            <point x="0.882353" y="0.089613" />
+                            <point x="1" y="0.5" />
+                            <point x="0.925134" y="0.942973" />
+                            <point x="0.5" y="0.979633" />
+                            <point x="0.110963" y="0.915479" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgtrue" sid="119175539851674">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="544289505682175" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\pixelfly-iphone-wallpaper-img-7.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgg" sid="162132791873310">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="654611770983587" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Desktop\รูปประกอบเกมจับผิดภาพ\a4501a80-9372-11eb-bea4-9b7a915c0478_original.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back" sid="729791449750738">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="502244119737528" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\win10\Downloads\logo-home-png-7416.png">
+                        <collision-poly>
+                            <point x="0.146423" y="0.146423" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853577" y="0.146423" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853577" y="0.853577" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146423" y="0.853577" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="806311688141526">
+            <plugin id="Touch" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
+        <layout>Layout 3.xml</layout>
+        <layout>Layout 4.xml</layout>
+        <layout>Layout 5.xml</layout>
+        <layout>Layout 6.xml</layout>
+        <layout>Layout 7.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="7" />
+        <global-instance type="Touch" uid="57">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

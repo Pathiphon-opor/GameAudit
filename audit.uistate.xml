@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="1">Layout 1</layout>
+        <layout order="3">Layout 2</layout>
+        <layout order="4">Layout 3</layout>
+        <layout order="5">Layout 4</layout>
+        <layout order="6">Layout 5</layout>
+        <layout order="7">Layout 6</layout>
+        <layout order="8">Layout 7</layout>
+        <event-sheet active="1" order="2">Event sheet 1</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/bg/" />
+        <folder expanded="1" path="animation-folder/correct/" />
+        <folder expanded="1" path="animation-folder/btNext/" />
+        <folder expanded="1" path="animation-folder/live/" />
+        <folder expanded="1" path="animation-folder/btRestart/" />
+        <folder expanded="1" path="animation-folder/color/" />
+        <folder expanded="1" path="animation-folder/show/" />
+        <folder expanded="1" path="animation-folder/Show1/" />
+        <folder expanded="1" path="animation-folder/show0/" />
+        <folder expanded="1" path="animation-folder/show2/" />
+        <folder expanded="1" path="animation-folder/show3/" />
+        <folder expanded="1" path="animation-folder/show4/" />
+        <folder expanded="1" path="animation-folder/show5/" />
+        <folder expanded="1" path="animation-folder/show6/" />
+        <folder expanded="1" path="animation-folder/show7/" />
+        <folder expanded="1" path="animation-folder/end/" />
+        <folder expanded="1" path="animation-folder/logo/" />
+        <folder expanded="1" path="animation-folder/line/" />
+        <folder expanded="1" path="animation-folder/Start4/" />
+        <folder expanded="1" path="animation-folder/prop/" />
+        <folder expanded="1" path="animation-folder/bgColor/" />
+        <folder expanded="1" path="animation-folder/ST/" />
+        <folder expanded="1" path="animation-folder/Logo3/" />
+        <folder expanded="1" path="animation-folder/prop2/" />
+        <folder expanded="1" path="animation-folder/congrat/" />
+        <folder expanded="1" path="animation-folder/cg/" />
+        <folder expanded="1" path="animation-folder/home/" />
+        <folder expanded="1" path="animation-folder/bgt/" />
+        <folder expanded="1" path="animation-folder/bgtrue/" />
+        <folder expanded="1" path="animation-folder/bgg/" />
+        <folder expanded="1" path="animation-folder/back/" />
+    </folders-expanded>
+</c2uistate>

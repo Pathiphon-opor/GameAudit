@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="number" sid="937949734380358" static="0" type="number">0</variable>
+        <variable constant="0" name="live" sid="245295717650187" static="0" type="number">4</variable>
+        <variable constant="0" name="timer" sid="728189147243557" static="0" type="number">15</variable>
+        <event-block sid="639694921826074">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="315037450399873" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="914845599922646" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="256974788170540" type="btNext">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="683486118611598" type="correct">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="757760412911533" type="live">
+                    <param id="0" name="Frame number">live</param>
+                </action>
+                <action id="-9" name="Set value" sid="195754205624700" type="System">
+                    <param id="0" name="Variable">number</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="252490791326324" type="System">
+                    <param id="0" name="Variable">live</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-9" name="Set value" sid="363759447100934" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">15</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="105660021551592">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="518787763418367" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">correct</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="685548475145124" type="correct">
+                    <param id="0" name="Instance variable">click</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="545252310288376" type="System">
+                    <param id="0" name="Variable">number</param>
+                    <param id="1" name="Value">correct.num</param>
+                </action>
+                <action id="-15" name="Set visible" sid="742690974103541" type="correct">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="261995875625870" type="show2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="502559214758085" type="show0">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="418324571210877" type="show3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="561547225554668" type="show4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="151241312440599" type="show5">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="915776547046247" type="show6">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="618248918614985" type="show7">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="184254277651181" type="btNext">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="958255975612274" type="bg">
+                    <param id="0" name="Instance variable">click</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="624478423257981" type="System">
+                    <param id="0" name="Time scale">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="691672391475457">
+            <conditions>
+                <condition id="3" name="On touched object" sid="650905780238828" type="Touch">
+                    <param id="0" name="Object">correct</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="455858911922348" type="correct">
+                    <param id="0" name="Instance variable">click</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="817006166412443" type="System">
+                    <param id="0" name="Variable">number</param>
+                    <param id="1" name="Value">correct.num</param>
+                </action>
+                <action id="-15" name="Set visible" sid="178148312994896" type="correct">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="158968721379924" type="show2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="680187402184536" type="show0">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="725740056932320" type="show3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="124335282416608" type="show4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="498108341106560" type="show5">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="776890626069871" type="show6">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="438099633924388" type="show7">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="141877671538578" type="btNext">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="954355476889380" type="bg">
+                    <param id="0" name="Instance variable">click</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="266036386263177" type="System">
+                    <param id="0" name="Time scale">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="281697219809400">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="905969027906390" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">bg</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="744108025915651" type="bg">
+                    <param id="0" name="Instance variable">click</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="336425353431715">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="475778110800397" type="Mouse">
+                            <param id="0" name="Object">correct</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="228778731649007" type="System">
+                            <param id="0" name="Variable">live</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="324137463707498" type="live">
+                            <param id="0" name="Frame number">live</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="475487030317009">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="370149992844175" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="909877932341206" type="timer">
+                    <param id="0" name="Text">timer</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="120732059710108">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="692945303340581" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="994736330159845" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="968085559817295">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="848782138502265" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="204416773484827" type="System">
+                    <param id="0" name="Variable">live</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="545503431881827" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="432937232315720" type="System">
+                    <param id="0" name="Layer">3</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="780514477764727">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="518841157284797" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btNext</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="538245346024877" type="bg">
+                    <param id="0" name="Instance variable">click</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="813731755477994" type="System">
+                    <param id="0" name="Time scale">1</param>
+                </action>
+                <action id="-43" name="Go to next/previous layout" sid="621925779633015" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="715133556115015">
+            <conditions>
+                <condition id="3" name="On touched object" sid="260364433142222" type="Touch">
+                    <param id="0" name="Object">btNext</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="296636334587390" type="bg">
+                    <param id="0" name="Instance variable">click</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="469340876175560" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action id="-43" name="Go to next/previous layout" sid="358994487099295" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="686348689551256">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="342570295453070" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btRestart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="450609719010198" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="336577905072822">
+            <conditions>
+                <condition id="3" name="On touched object" sid="817182672050114" type="Touch">
+                    <param id="0" name="Object">btRestart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="187066673815798" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
